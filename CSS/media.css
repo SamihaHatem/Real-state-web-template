@@ -1,0 +1,86 @@
+@media (max-width: 992px) and (min-width:0px) {
+    .First-Section form {
+        flex-direction: column !important;
+    }
+    .First-Section form select,
+    .First-Section form div {
+        margin: 1em auto !important;
+    }
+    #myHeader {
+        display: none !important;
+    }
+    #mynavBar {
+        top: 0 !important;
+    }
+    .container {
+        max-width: 100% !important;
+    }
+    .btn-nav {
+        display: block !important;
+    }
+    .nav-none {
+        display: none !important;
+    }
+    .first-letter-a,
+    .h3-responsive {
+        font-size: 30px !important;
+        font-weight: bold;
+    }
+    .w-308-h-205,
+    .w-640 {
+        width: 85% !important;
+        margin: 1.5rem auto !important;
+    }
+    .Agents .col-12 {
+        margin: 30px 0;
+    }
+    .Submit-Property .d-flex {
+        flex-direction: column;
+    }
+    .Submit-Property .btn-hover {
+        align-self: center;
+        margin: 5px 0;
+    }
+    .NewsFeed-inner {
+        bottom: 10px;
+    }
+    .col-m {
+        margin: 10px 0 !important;
+    }
+    footer .col-12 {
+        margin: 10px 0;
+    }
+}
+
+
+/* sm   0 - 576 */
+
+@media (max-width: 576px) and (min-width: 0px) {}
+
+
+/* m    576 - 768 */
+
+@media (max-width: 768px) and (min-width: 576px) {}
+
+
+/* lg   768 - 992 */
+
+@media (max-width: 992px) and (min-width: 768px) {}
+
+
+/* xl   992 - 1200 */
+
+@media (max-width: 1200px) and (min-width: 992px) {
+    .First-Section form {
+        flex-direction: column !important;
+    }
+    .First-Section form select,
+    .First-Section form div {
+        margin: 1em auto !important;
+    }
+}
+
+
+/* xxl   1200 - 1400 */
+
+@media (max-width: 1400px) and (min-width: 1200px) {}
